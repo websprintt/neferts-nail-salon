@@ -1,0 +1,6 @@
+{
+  "name": "Nefert's Nail Salon",
+  "description": "Landing Page premium, interactiva y ultra-moderna de Nefert's Nail Salon en Ciudad Real, optimizada para conversión (CRO) y reservas perfectas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
