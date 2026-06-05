@@ -1,5 +1,5 @@
 import { Service, Review } from "./types";
-import heroImage from "src/assets/images/salon_hero_1780588716686.png";
+import heroImage from "./assets/images/salon_hero_1780588716686.png";
 import nailArtElegantImage from "./assets/images/nail_art_elegant_1780588734568.png";
 import nailArtCreativeImage from "./assets/images/nail_art_creative_1780588754259.png";
 import profileImage from "./assets/images/nefert_profile_1780588769842.png";
