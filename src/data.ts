@@ -1,4 +1,8 @@
 import { Service, Review } from "./types";
+import heroImage from "./assets/images/salon_hero_1780588716686.png";
+import nailArtElegantImage from "./assets/images/nail_art_elegant_1780588734568.png";
+import nailArtCreativeImage from "./assets/images/nail_art_creative_1780588754259.png";
+import profileImage from "./assets/images/nefert_profile_1780588769842.png";
 
 // Navigation Links
 export const NAV_LINKS = [
@@ -36,10 +40,10 @@ export const SALON_INFO = {
 // Generated Asset Paths & Official Instagram Logo
 export const IMAGES = {
   logoUrl: "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-19/466067996_1627328571528475_7880055908110381705_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43MjMuYzIifQ&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH1xBedSmuMz14R9dIbjDnl-y8oEgcb_TnOjxTXNWeELnj7hTuGZL5t4zrSxRNx7tY&_nc_ohc=ydZeXz0qvwgQ7kNvwEuLYcw&_nc_gid=bSfAXEnfBb5xxPprLM5vKA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Af_wnuaNlHucZfV4DbjFkXyXw17L2-IrW3AnrhEFih3euQ&oe=6A2780CE&_nc_sid=7a9f4b",
-  hero: "/src/assets/images/salon_hero_1780588716686.png",
-  nailArtElegant: "/src/assets/images/nail_art_elegant_1780588734568.png",
-  nailArtCreative: "/src/assets/images/nail_art_creative_1780588754259.png",
-  profile: "/src/assets/images/nefert_profile_1780588769842.png",
+  hero: heroImage,
+  nailArtElegant: nailArtElegantImage,
+  nailArtCreative: nailArtCreativeImage,
+  profile: profileImage,
 };
 
 // Complete Service Catalog exactly parsed from the provided list
